@@ -5,7 +5,7 @@ import {
 } from './types';
 import history from '../history';
 import axios from 'axios';
-import NEWS_API from '../api/api';
+import NEWS_API from '../apilo/api';
 
 export const signIn = userId => {
   return {

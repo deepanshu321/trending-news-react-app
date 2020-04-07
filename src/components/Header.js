@@ -8,7 +8,7 @@ class Header extends React.Component{
 if(s===true)
 		{
 			return (<div><FlashMessage duration={3000}>
-    <div class='alert alert-success text-center'><h3>Sucessfully Signed in </h3> </div>
+    <div class='alert alert-success text-center'><h3>you are Sucessfully Signed in </h3> </div>
   </FlashMessage></div>)
 		}
 		return null;
