@@ -8,7 +8,7 @@ const datesolve=(d)=>{
 
 	const ress=news.map((newp)=>{
 		return(
-						<div class="card mt-5 border border-warning">
+						<div class="card  border border-warning" style={{marginTop:'50px'}}>
 						  <div class="card-header mx-auto" >
 						    <img class="  rounded-circle img-fluid"  src={newp.urlToImage} alt="image not found"/>
 						  </div>

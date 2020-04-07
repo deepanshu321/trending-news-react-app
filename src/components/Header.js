@@ -16,8 +16,8 @@ if(s===true)
 	render(){
 		return (
 			<div>
-			
-					<nav class="navbar fixed-top navbar-dark bg-dark">
+
+					<nav class="navbar fixed-top navbar-dark bg-dark " >
 					  <a href="/" class="navbar-brand">Home</a>
 					  <div className="right menu">
 				        
@@ -25,7 +25,8 @@ if(s===true)
 				      </div>
 					 
 					</nav>
-							{this.success(this.props.signed)}
+					<div style={{marginTop:'50px'}}>
+							{this.success(this.props.signed)}</div>
 					</div>
 
 
