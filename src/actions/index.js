@@ -5,6 +5,7 @@ import {
 } from './types';
 import history from '../history';
 import axios from 'axios';
+import NEWS_API from '../api/api';
 
 export const signIn = userId => {
   return {
@@ -22,7 +23,7 @@ export const shownews=(id,signed)=>async(dispatch,getState)=>{
 	
 	
   
-	const res=await axios.get(`http://newsapi.org/v2/top-headlines?country=${id}&apiKey=1c5ea35ceed84ee9914ea6ab2743563e`)
+	const res=await axios.get(`http://newsapi.org/v2/top-headlines?country=${id}&apiKey=${NEWS_API}`)
 	
   	dispatch({type:SHOW_NEWS,payload:{data:res.data.articles,
       signed:signed}})
