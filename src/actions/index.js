@@ -23,7 +23,7 @@ export const shownews=(id,signed)=>async(dispatch,getState)=>{
 	
 	
   
-	const res=await axios.get(`http://newsapi.org/v2/top-headlines?country=${id}&apiKey=${NEWS_API}`)
+	const res=await axios.get(`https://newsapi.org/v2/top-headlines?country=${id}&apiKey=${NEWS_API}`)
 	
   	dispatch({type:SHOW_NEWS,payload:{data:res.data.articles,
       signed:signed}})
