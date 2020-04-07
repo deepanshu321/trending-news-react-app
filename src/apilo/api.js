@@ -1,2 +1,2 @@
-const h='1c5ea35ceed84ee9914ea6ab2743563e';
+const h=process.env.NEWS_API;
 export default h;

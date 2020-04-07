@@ -16,7 +16,7 @@ if(s===true)
 	render(){
 		return (
 			<div>
-					<nav class="navbar sticky-top navbar-dark bg-dark">
+					<nav class="navbar fixed-top navbar-dark bg-dark">
 					  <a href="/" class="navbar-brand">Home</a>
 					  <div className="right menu">
 				        
