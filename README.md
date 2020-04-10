@@ -1,6 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-production url----     https://news-trending.herokuapp.com/
+See the Live App-    https://news-trending.herokuapp.com/
+
+
 ## Available Scripts
 
 In the project directory, you can run:
